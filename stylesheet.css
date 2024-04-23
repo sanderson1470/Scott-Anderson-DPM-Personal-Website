@@ -17,7 +17,7 @@ body {
     padding: 20px;
 }
 
-button {
+.button-link {
     display: block;
     width: 100%;
     margin-bottom: 10px;
@@ -27,9 +27,11 @@ button {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    text-align: center; /* Center the text within the button */
+    text-decoration: none; /* Remove default underline for links */
     transition: background-color 0.3s;
 }
 
-button:hover {
+.button-link:hover {
     background-color: #0056b3;
 }
