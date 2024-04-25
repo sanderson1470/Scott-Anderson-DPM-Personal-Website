@@ -27,3 +27,29 @@
     margin-top: 100px; /* Adjusted for button height */
     padding: 20px;
 }
+
+footer {
+    text-align: center;
+    padding: 20px 20px;
+    background: #333333; /* Consistent footer color */
+    color: #FFCD00;
+    border-top: 5px solid #FFCD00; /* Stylish top border */
+}
+
+footer a {
+    color: #FFCD00; /* Gold text for links */
+    text-decoration: none; /* No underline */
+    margin: 20 20px; /* Space out links */
+}
+
+footer a:hover {
+    color: #FFFFFF; /* White color on hover for contrast */
+}
+
+footer i {
+    margin-right: 5px; /* Space between icon and text */
+}
+
+.contact-info {
+    margin-bottom: 10px; /* Space above the copyright text */
+}
