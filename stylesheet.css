@@ -1,38 +1,29 @@
-body {
-    font-family: Arial, sans-serif;
-    display: flex;
-    min-height: 100vh;
-    margin: 0;
-}
-
+/* Sidebar styles */
 .sidebar {
-    width: 200px; /* Adjust the width of the sidebar as needed */
-    background-color: #f4f4f4;
+    background-color: #000000; /* Black sidebar background */
+    color: #ffffff; /* White text color */
     padding: 20px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%; /* Full width */
+    display: flex;
+    justify-content: center; /* Center content horizontally */
 }
 
-.content {
-    flex: 1;
-    padding: 20px;
-}
-
+/* Sidebar button styles */
 .button-link {
-    display: block;
-    width: 100%;
-    margin-bottom: 10px;
-    padding: 10px;
-    background-color: #000; /* Change background color to black */
-    color: #fff;
-    border: none;
+    display: inline-block;
+    margin: 0 10px; /* Add spacing between buttons */
+    text-decoration: none;
+    color: #000000; /* Black text color */
+    background-color: #ffcc00; /* Yellow button background */
+    padding: 10px 20px;
     border-radius: 5px;
-    cursor: pointer;
-    text-align: center; /* Center the text within the button */
-    text-decoration: none; /* Remove default underline for links */
-    transition: background-color 0.3s;
-    font-size: 18px; /* Adjust font size as needed */
 }
 
-.button-link:hover {
-    background-color: #333; /* Darken background color on hover */
+/* Content styles */
+.content {
+    margin-top: 100px; /* Adjusted for button height */
+    padding: 20px;
 }
