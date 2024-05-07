@@ -1,4 +1,4 @@
-# Scott Anderson DPM Personal Website
+# Scott Anderson Portfolio Website
  
 ### In this respository I created my portfolio website! I am very proud of my portfolio website and would love if you could check it out @ scottanderson.me . I would like to thank Mike Colbert, my professor at the University of Iowa for his help with this project!
 
